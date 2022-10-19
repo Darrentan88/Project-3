@@ -61,3 +61,7 @@ p {
   text-decoration: underline overline;
 }
 
+.center {
+  text-align: center;
+  border: 3px solid green;
+}
