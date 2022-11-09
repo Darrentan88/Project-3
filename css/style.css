@@ -10,6 +10,7 @@ body ul li {
 h1 {
   color: White;
   float: left;
+  padding-right: 100%;
 }
 
 h2 {
