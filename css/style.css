@@ -76,7 +76,7 @@ p {
   font-family: "Lucida Console", "Courier New", monospace;
 }
 
-@media screen and (max-width: 800px) and (min-width: 700px){
+@media only screen and (max-width: 1000px) and (min-width: 600px){
 	.index-title{
   		font-size: 20px;
     	padding: 5px;
@@ -85,7 +85,7 @@ p {
     	text-align: center;
 	}
 }
-@media screen and (max-width: 700px) {.header-class{
+@media only screen and (max-width: 700px) {.header-class{
    		width: 50%;
     	text-align:center; 
     	margin: 2;
