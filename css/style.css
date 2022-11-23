@@ -7,22 +7,6 @@ body ul li {
   
 }
 
-@media screen and (max-width: 800px) and (min-width: 700px){
-	.index-title{
-  		font-size: 20px;
-    	padding: 5px;
-    	border: 2px black;
-    	background: white;
-    	text-align: center;
-	}
-}
-@media screen and (max-width: 700px) {.header-class{
-   		width: 50%;
-    	text-align:center; 
-    	margin: 2;
-  		padding: 1px;
-      text-align: center;
-  	}
 h1 {
   color: White;
   float: left;
@@ -91,3 +75,20 @@ p {
 .p3 {
   font-family: "Lucida Console", "Courier New", monospace;
 }
+
+@media screen and (max-width: 800px) and (min-width: 700px){
+	.index-title{
+  		font-size: 20px;
+    	padding: 5px;
+    	border: 2px black;
+    	background: white;
+    	text-align: center;
+	}
+}
+@media screen and (max-width: 700px) {.header-class{
+   		width: 50%;
+    	text-align:center; 
+    	margin: 2;
+  		padding: 1px;
+      text-align: center;
+  	}
