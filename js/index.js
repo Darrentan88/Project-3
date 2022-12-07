@@ -1,12 +1,10 @@
+let map;
+
 function initMap() {
-  var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 4,
-    center: { lat: 82.8628, lng: 135.0},
-  });
-  
-  var marker = new google.maps.Marker({
-    position: { lat: 82.8628, lng: 135.0},
-    map: map,
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
   });
 }
+
 window.initMap = initMap;
